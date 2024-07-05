@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>garments</title>
+</head>
+
+<body>
+    <!-- 400*270 -->
+    <div id="outer">
+        <!-- 180*20 -->
+        <h2>SELECT YOUR CHOICE</h2>
+        <ul>
+           <li onclick="getdata('m')" onmouseover="show()"><img id="menimg" src="./images/men.png" style="visibility:hidden; padding:3%;">Men</li>
+           <li onclick="getdata('w')" onmouseover="show()"><img id="womenimg" src="./images/women.png" style="visibility:hidden; padding:3%;">Women</li>
+           <li onclick="getdata('k')" onmouseover="show()"><img id="kidimg" src="./images/kids.png" style="visibility:hidden; padding:3%;">Kids</li>
+        </ul>
+        <!-- 370*140 -->
+        <div id="card">
+            <div class="ot">
+                <span class="bt"></span>
+                <img class="image">
+                <div><span class="name"></span><span class="comp"></span></div>
+                <div><span class="price"></span><s class="strike"></s><span class="offer">50% off</span></div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="ot">
+                <span class="bt"></span>
+                <img class="image">
+                <div><span class="name"></span><span class="comp"></span></div>
+                <div><span class="price"></span><s class="strike"></s><span class="offer">50% off</span></div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="ot">
+                <span class="bt"></span>
+                <img class="image">
+                <div><span class="name"></span><span class="comp"></span></div>
+                <div><span class="price"></span><s class="strike"></s><span class="offer">50% off</span></div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="ot">
+                <span class="bt"></span>
+                <img class="image">
+                <div><span class="name"></span><span class="comp"></span></div>
+                <div><span class="price"></span><s class="strike"></s><span class="offer">50% off</span></div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
